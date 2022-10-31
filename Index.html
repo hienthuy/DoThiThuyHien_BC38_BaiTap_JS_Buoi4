@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bài Tập 1: Sắp xếp thứ tự tăng dần</h2>
+        <input id="number1" type="number" placeholder="Nhập số thứ 1">
+        <input id="number2" type="number" placeholder="Nhập số thứ 2">
+        <input id="number3" type="number" placeholder="Nhập số thứ 3">
+        <button onclick="sapXep3So()" id="button_bt1" >Sắp Xếp</button>
+        <div >STT: <span id="numberArrange" ></span ></div>
+    <br><hr style="width: 100%;">
+    <h2>Bài Tập 2: Viết chương trình “Chào hỏi” các thành viên trong gia đình</h2>
+    <select id="inputUser" >
+        <option value="Chọn thành viên" >Chọn thành viên</option>
+        <option value="Bố" >Bố</option>
+        <option value="Mẹ" >Mẹ</option>
+        <option value="Anh trai" >Anh trai</option>
+        <option value="Em gái" >Em gái</option>
+    </select>
+    <button onclick="sayHelloUser()" >Gửi lời chào</button>
+    <div id="hienThiChaoHoi"> </div>
+    <br><hr style="width: 100%;">
+    <h2>Bài Tập 3: Viết chương trình xuất ra có bao nhiêu số lẻ và bao nhiêu số chẵn</h2>
+    <input type="number" id="number_1" placeholder="Nhập số thứ 1">
+    <input type="number" id="number_2" placeholder="Nhập số thứ 2">
+    <input type="number" id="number_3" placeholder="Nhập số thứ 3">
+    <button onclick="countNumber()" >Đếm</button>
+    <div id="demSoChanLe"></div>
+    
+    <br><hr style="width: 100%;">
+    <h2>Bài Tập 4: Viết chương trình cho nhập 3 cạnh của tam giác. Hãy cho biết đó là tam giác gì?</h2>
+    <input id="canh1" type="number" placeholder="Nhập độ dài cạnh 1">
+    <input id="canh2" type="number" placeholder="Nhập độ dài cạnh 2">
+    <input id="canh3" type="number" placeholder="Nhập độ dài cạnh 3">
+    <button onclick="triangleType()"  >Dự đoán</button>
+    <div id="duDoanTamGiac"></div>
+
+    <script src="./Index.js"></script>
+</body>
+</html>
